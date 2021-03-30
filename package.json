@@ -24,9 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "addprettier": "npm i prettier",
-    "addeslintplugin": "npm i eslint-config-prettier eslint-plugin-prettier"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
