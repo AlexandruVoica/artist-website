@@ -1,5 +1,5 @@
-import { UIActionCreatorType } from "../actions";
-import {HIDE_MENU, SHOW_MENU} from "../actions/types";
+import { UIActionCreatorType } from "store/actions";
+import {HIDE_MENU, SHOW_MENU} from "store/actions/types";
 
 export type MenuStateType = {
     isVisible: boolean;

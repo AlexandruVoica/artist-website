@@ -1,6 +1,6 @@
 import React from 'react';
-import {useDispatch, useSelector} from "../store";
-import {showMenu} from "../store/actions";
+import {useDispatch, useSelector} from "store";
+import {showMenu} from "store/actions";
 
 const Footer = () => {
     const ui = useSelector(state => state.ui);

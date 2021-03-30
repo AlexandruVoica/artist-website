@@ -1,7 +1,9 @@
 import React, {createContext, useContext, useReducer} from "react";
+
+import useCombinedReducers from "utils/combineReducers";
+import {GeneralSelector} from "types/context";
+
 import {uiInitialState, UiInitialStateType, uiReducer} from "./reducers";
-import useCombinedReducers from "../utils/combineReducers";
-import {GeneralSelector} from "../types/context";
 
 export type AppInitialStateType = {
     ui: UiInitialStateType;

@@ -1,9 +1,12 @@
 import React from 'react';
+
+import {CompositeProvider} from "store";
+
+import Side from "components/Side";
+import Footer from "components/Footer";
+import Main from "components/Main";
+
 import './App.scss';
-import Side from "./components/Side";
-import Footer from "./components/Footer";
-import Main from "./components/Main";
-import {CompositeProvider} from "./store";
 
 function App() {
   return (
