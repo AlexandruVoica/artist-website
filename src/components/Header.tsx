@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "store";
 import { showMenu } from "store/actions";
 
-const Footer = () => {
+const Header = () => {
   const ui = useSelector((state) => state.ui);
   const dispatch = useDispatch();
 
@@ -14,4 +14,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Header;

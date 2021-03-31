@@ -3,7 +3,7 @@ import React from "react";
 import { CompositeProvider } from "store";
 
 import Side from "components/Side";
-import Footer from "components/Footer";
+import Header from "components/Header";
 import Main from "components/Main";
 
 import "./App.scss";
@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <Side />
         <Main />
-        <Footer />
+        <Header />
       </div>
     </CompositeProvider>
   );
