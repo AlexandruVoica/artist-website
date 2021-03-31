@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Layout.scss";
+import styles from "./Layout.module.scss";
 
 type LayoutPropsType = {
   header: any;
@@ -12,12 +12,12 @@ type LayoutPropsType = {
 const Layout = (props: LayoutPropsType) => {
   const { header, main, side, footer } = props;
   return (
-    <div className={"container"}>
-      <div className={"side-container"}>{side}</div>
-      <div className={"content-container"}>
-        <div className={"header-container"}>{header}</div>
-        <div className={"main-container"}>{main}</div>
-        <div className={"footer-container"}>{footer}</div>
+    <div className={styles.container}>
+      <div className={styles.sideContainer}>{side}</div>
+      <div className={styles.contentContainer}>
+        <div className={styles.headerContainer}>{header}</div>
+        <div className={styles.mainContainer}>{main}</div>
+        <div className={styles.footerContainer}>{footer}</div>
       </div>
     </div>
   );

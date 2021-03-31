@@ -5,26 +5,27 @@
   display: flex;
   flex-direction: row;
 
-  .side-container {
+  .sideContainer {
     flex-shrink: 1;
     flex-basis: 500px;
   }
 
-  .content-container {
+  .contentContainer {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    padding-right: $navigation-height;
 
-    .header-container {
+    .headerContainer {
       flex-shrink: 1;
       flex-basis: $navigation-height;
     }
 
-    .main-container {
+    .mainContainer {
       flex-grow: 1;
     }
 
-    .footer-container {
+    .footerContainer {
       flex-shrink: 1;
       flex-basis: $navigation-height;
     }
