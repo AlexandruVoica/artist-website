@@ -3,12 +3,12 @@
 .container {
   height: 100vh;
   display: grid;
-  grid-template-columns: 500px auto $navigation-height;
+  grid-template-columns: 600px auto $navigation-height;
   grid-template-rows: $navigation-height auto $navigation-height;
   grid-template-areas:
     "side header pad"
     "side main pad"
-    "side footer pad";
+    ". footer pad";
 
   .sideContainer {
     grid-area: side;

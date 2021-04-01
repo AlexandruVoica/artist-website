@@ -1,0 +1,18 @@
+@import "src/styles/_globals.scss";
+
+.container {
+  padding-top: $side-padding;
+
+  .pieceTitle {
+    margin: 0;
+  }
+
+  .seriesName {
+    color: lightgray;
+  }
+
+  .text {
+    text-align: justify;
+    font-size: 13px;
+  }
+}

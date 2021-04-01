@@ -1,0 +1,17 @@
+@import "src/styles/_globals.scss";
+
+.container {
+  padding: 0 $side-padding;
+
+  .titleContainer {
+    height: $navigation-height;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .title {
+      text-transform: uppercase;
+    }
+  }
+}
+
