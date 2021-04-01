@@ -2,3 +2,26 @@ $navigation-height: 160px;
 $side-padding: 100px;
 
 $line-color: lightgray;
+$button-bg-color: #f2f2f2;
+
+@mixin general-button() {
+  outline: none;
+  box-shadow: none;
+  background-color: $button-bg-color;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px;
+  transition: all 0.2s;
+
+  &:hover,
+  &:focus,
+  &:visited {
+    outline: none;
+    box-shadow: none;
+  }
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}

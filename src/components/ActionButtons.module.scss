@@ -1,0 +1,15 @@
+@import "src/styles/_globals.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .button {
+    @include general-button();
+    margin-top: 15px;
+  }
+
+  .purchaseDigitalButton {
+    font-weight: bold;
+  }
+}
