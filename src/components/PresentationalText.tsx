@@ -1,9 +1,11 @@
 import React from "react";
 
+import { PieceDataType } from "types/domain";
+
 import styles from "./PresentationalText.module.scss";
 
 type PresentationalTextPropsType = {
-  pieceData: any;
+  pieceData: PieceDataType;
 };
 
 const PresentationalText = (props: PresentationalTextPropsType) => {
