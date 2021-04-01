@@ -14,11 +14,9 @@ const Layout = (props: LayoutPropsType) => {
   return (
     <div className={styles.container}>
       <div className={styles.sideContainer}>{side}</div>
-      <div className={styles.contentContainer}>
-        <div className={styles.headerContainer}>{header}</div>
-        <div className={styles.mainContainer}>{main}</div>
-        <div className={styles.footerContainer}>{footer}</div>
-      </div>
+      <div className={styles.headerContainer}>{header}</div>
+      <div className={styles.mainContainer}>{main}</div>
+      <div className={styles.footerContainer}>{footer}</div>
     </div>
   );
 };
